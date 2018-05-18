@@ -1,6 +1,13 @@
 Interfaces: I+{modelo}+{capa}
 Clases: {nombreClase}+{capa}+impl
 
-eliminar
-->attach
-->Remove
+*eliminar
+->{context}.{modelo}.attach
+->{context}.{modelo}.Remove
+
+Modificar
+->{context}.Entry({modelo}).State = EntityState.Modified;
+
+Tarea
+
+Crear Shift

@@ -1,0 +1,6 @@
+Interfaces: I+{modelo}+{capa}
+Clases: {nombreClase}+{capa}+impl
+
+eliminar
+->attach
+->Remove
